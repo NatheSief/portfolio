@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page web ntsfrt</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div>
-        <h1>Site under construction</h1>
-    </div>
-</body>
+<html lang="en" class="bg-zinc-900 text-white">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NatheSief's portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body class="font-sans flex flex-col min-h-screen items-center justify-center px-6 py-12">
+    <header class="text-center mb-12">
+      <h1 class="title">👋 Hello, I'm <span class="text-accent">Nathe</span></h1>
+      <p class="description">
+        A french student turned full-stack dev, passionate about game-dev, electronic interfaces and building tech with purpose.
+        <br />
+        I build tools, games and infrastructure with ethics, minimalism and impact in mind.
+		<br />
+		Currently working in IT for my hospitality project.
+      </p>
+    </header>
+	<div class="flex flex-col items-center mb-8">
+  		<button id="toggleContacts" class="btn-secondary mb-4">
+    		Show Profiles
+  		</button>
+  		<div id="contactSection" class="hidden space-y-2 text-center text-zinc-300"></div>
+	</div>
+    <nav class="buttons mb-16">
+      <a href="#projects" class="btn-primary">View My Projects</a>
+      <a href="https://github.com/NatheSief" target="_blank" class="btn-secondary">GitHub</a>
+    </nav>
+
+    <section id="projects" class="w-full max-w-5xl">
+      <!-- Futur contenu JS -->
+    </section>
+
+    <footer class="footer">
+      &copy; 2025 Nathe – Built with ❤️ 
+    </footer>
+  </body>
+  <script src="js/projects.js"></script>
+  <script src="js/contact.js"></script>
 </html>
+

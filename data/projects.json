@@ -1,0 +1,21 @@
+[
+  {
+    "repo": "NatheSief/Magrathea",
+    "description": "A procedural RPG in C using Raylib.",
+    "link": "https://github.com/NatheSief/Magrathea",
+    "visible": true
+  },
+  {
+    "repo": "NatheSief/HiddenTool",
+    "description": "A hidden dev tool.",
+    "link": "https://github.com/NatheSief/HiddenTool",
+    "visible": false
+  },
+  {
+    "repo" : "",
+    "description": "Biomecanic protheses",
+    "link": "",
+    "visible": false
+  }
+]
+
